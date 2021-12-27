@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="asses1.css">
+</head>
+
+<body>
+    <main>
+
+
+        <h1 class="start"> BUDGET EXPENSE APPLICATION</h1>
+
+        <section>
+
+            <div class="form">
+                <form id="form">
+                    <h3>ENTER YOUR DETAILS</h3>
+                    <div class="row">
+                        <label for="name">Name </label>
+                        <input type="text" class="input" id="user_name" placeholder="Enter your name"></input>
+                    </div>
+
+                    <div class="row">
+                        <label for="Budget">Budget</label>
+                        <input type="number" class="input" id="user_budget" placeholder="Enter your budget">
+                    </div>
+                    <div class="row">
+                        <button type="button" class="buttn" id="user_data_button">submit</button>
+                    </div>
+
+
+
+                </form>
+            </div>
+        </section>
+
+
+        <section class="table">
+            <div class="col">
+                <table>
+                    <tr>
+                        <th>Items</th>
+                        <th>Product Name</th>
+                        <th>Price</th>
+                        <th>Order</th>
+                    </tr>
+                    <tr>
+                        <td><span id="shirt_SNO">1</span> </td>
+                        <td><span id="shirt_product">Shirt</span> </td>
+                        <td> <span id="shirt_price">2500</span></td>
+                        <td><button class="buttn" id="shirt_button">Buy</button></td>
+
+                    </tr>
+                    <tr>
+                        <td><span id="pant_SNO">2</span> </td>
+                        <td> <span id="pant_product">Pant</span></td>
+                        <td> <span id="pant_price">2000</span></td>
+                        <td><button class="buttn" id="pant_button">Buy</button></td>
+
+                    </tr>
+                    <tr>
+                        <td><span id="sweater_SNO">3</span> </td>
+                        <td> <span id="sweater_product">Sweater</span></td>
+                        <td> <span id="sweater_price">4000</span></td>
+                        <td><button class="buttn" id="sweater_button">Buy</button></td>
+                    </tr>
+                    <tr>
+                        <td><span id="coat_SNO">4</span> </td>
+                        <td> <span id="coat_product">Coat</span></td>
+                        <td> <span id="coat_price">10000</span></td>
+                        <td><button class="buttn" id="coat_button"> Buy</button></td>
+
+                    </tr>
+                </table>
+
+            </div>
+            <div class="col">
+                <button type="button" id="calculate_button" class="buttn">Calculate</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="asses1.js" type="text/javascript"></script>
+</body>
+
+</html>
